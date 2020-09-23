@@ -25,7 +25,7 @@ To configure geo-replication between two caches, the following prerequisites mus
 - The secondary linked cache is either the same cache size or a larger cache size than the primary linked cache.
 - Both caches are created and in a running state.
 
-Some features aren't supported with geo-replication:
+Some features are not supported with geo-replication:
 
 - Persistence isn't supported with geo-replication.
 - Clustering is supported if both caches have clustering enabled and have the same number of shards.
